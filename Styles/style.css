@@ -80,7 +80,8 @@ footer,
 #home,
 #plants,
 #flowersLover,
-#deals{
+#deals,
+.newsletterContainer{
   width: 1250px;
   margin: 0 auto;
 }
@@ -310,17 +311,16 @@ nav {
 
 
 #newsletter{
+
   background: url("../assets/news-letter-bg.png");
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center;
-  padding: 50px 0;
+  padding: 100px 0;
+
+
 }
-#newsletter{
-  width: 100%;
-  margin: auto;
-  padding: 150px 0;
-}
+
 #newsletter .title {
   text-align: center;
   color: #ffffff;
@@ -353,10 +353,62 @@ button {
   justify-content: center;
   align-items: center;
   gap: 0px;
+  width: 100%;
 }
 .email{
   width: 80%;
 }
 .submit{
   width: 20%;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  background-color: #ffffff;
+  color: #00000063;
+  text-align: center;
+  font-size: 16px;
+  
+  
+}
+.heading{
+  width: 33%;
+  text-align: left;
+}
+.social{
+  width: 33%;
+ 
+}
+.social ul{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.links{
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.link1 ul, .link2 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.links a{
+  color: #00000063;
+  font-size: 16px;
+}
+.links a:hover{
+  color: black
 }

@@ -86,6 +86,7 @@ main {
   font-weight: 700;
   font-size: 65px;
   color: #000000;
+  text-align: center ;
 }
 .title-highlight {
   color: #e95a08;
@@ -136,6 +137,9 @@ nav {
   padding: 100px 0;
   
 }
+#home .title {
+  text-align: left;
+}
 .home-image {
   background-image: url("../assets/hero-flower.png");
   background-size: cover;
@@ -146,5 +150,50 @@ nav {
 }
 .description {
   max-width: 600px;
+}
+
+
+/* plant */
+.plantDescription{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plant-card h3, .plant-card p {
+  text-align: center;
+  color:#000000;
+  font-weight: 500;
+  margin:10px 0;
+}
+.plant-card p{
+  font-weight: 700;
+}
+.plant-card img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.add-to-cart {
+
+  background-color: #e95a08;
+  color: #ffffff;
+  cursor: pointer;
+width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.plant-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px ;
+  row-gap: 30px;
+  justify-content: center;
+  padding: 50px 0;
+}
+.plant-card{
+  flex: 23%;
 }
 

@@ -22,5 +22,10 @@
         text-align: left;
         padding: 20px;
     }
+    .plant-card{
+  flex: 45%;
+    margin: 10px 20px;
+}
+
     
 }

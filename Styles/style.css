@@ -75,25 +75,38 @@ ul {
   padding: 0;
   margin: 0;
 }
+header,
+footer,
+main {
+  width: 1250px;
+  margin: 0 auto;
+}
+.title {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 65px;
+  color: #000000;
+}
+.title-highlight {
+  color: #e95a08;
+}
 
 /* Header */
 nav {
-  width: 1250px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 0px;
   background-color: #ffffff;
 }
 .logo img {
   width: 100px;
 }
-.nav-links{
+.nav-links {
   display: flex;
   gap: 20px;
 }
-.nav-links li a{
+.nav-links li a {
   display: flex;
   gap: 2px;
   color: #0000006c;
@@ -101,12 +114,37 @@ nav {
 .nav-links li a:hover {
   color: #e95a08;
 }
-.nav-links li:first-child a{
+.nav-links li:first-child a {
   color: #000000;
 }
-.nav-links li:last-child span{
+.nav-links li:last-child span {
   color: #000000;
 }
 .cart img {
   width: 30px;
 }
+
+
+
+/* Home */
+#home {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  
+}
+.home-image {
+  background-image: url("../assets/hero-flower.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width: 600px;
+  height: 500px;
+}
+.description {
+  max-width: 600px;
+}
+

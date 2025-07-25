@@ -9,5 +9,18 @@
     .nav-links li:last-child{
         display: block;
     }
+    #home {
+        flex-direction: column;
+    }
+    .home-image {
+        max-width: 100%;
+        width: 100%;
+        order: -1;
+    }
+    .description {
+        max-width: 100%;
+        text-align: left;
+        padding: 20px;
+    }
     
 }

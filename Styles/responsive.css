@@ -1,9 +1,9 @@
 @media screen and (max-width: 576px) {
   header,
-footer,
-main {
-  margin: 0 20px;
-}
+  footer,
+  main {
+    margin: 0 20px;
+  }
   nav {
     width: 95%;
     margin: 0 auto;
@@ -31,15 +31,43 @@ main {
     flex: 45%;
     margin: 10px 20px;
   }
-  .loverContainer img{
+  .loverContainer img {
     display: none;
   }
-    .loverContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .loverImage{
-        width: 100%;
-        height: 1200px;
-    }
+  .loverContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .loverImage {
+    width: 100%;
+    height: 1200px;
+  }
+  .dealContainer {
+    flex-direction: column;
+  }
+  .dealChildContainer {
+    width: 100%;
+    margin: 0;
+    height: 1000px;
+  }
+  .big-child {
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+
+    border-radius: 5px 5px 0 0;
+  }
+  .child1 {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px 5px 0 0;
+  }
+  .child2 {
+    width: 100%;
+    height: 500px;
+    border-radius: 0%;
+  }
+  .overlay {
+    font-size: 40px;
+  }
 }

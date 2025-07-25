@@ -1,0 +1,13 @@
+@media  screen and (max-width: 576px){
+    nav {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .nav-links li{
+        display: none;
+    }
+    .nav-links li:last-child{
+        display: block;
+    }
+    
+}

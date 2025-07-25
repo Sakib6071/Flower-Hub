@@ -46,7 +46,7 @@ black: #000000;
 }
 
 .primary-color {
-  color: #E95A08;
+  color: #e95a08;
 }
 .secondary-color {
   color: #000000;
@@ -55,23 +55,58 @@ black: #000000;
   color: #00000079;
 }
 .white-color {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-    background-color: #F5F5F5;
-    font-size: 22px;
-    color: #00000077;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  font-size: 22px;
+  color: #00000077;
 }
-a{
-    text-decoration: none;
-    color:#000000
+a {
+  text-decoration: none;
+  color: #000000;
 }
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+nav {
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+}
+.logo img {
+  width: 100px;
+}
+.nav-links{
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a{
+  display: flex;
+  gap: 2px;
+  color: #0000006c;
+}
+.nav-links li a:hover {
+  color: #e95a08;
+}
+.nav-links li:first-child a{
+  color: #000000;
+}
+.nav-links li:last-child span{
+  color: #000000;
+}
+.cart img {
+  width: 30px;
 }

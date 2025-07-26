@@ -80,9 +80,8 @@ footer,
 #home,
 #plants,
 #flowersLover,
-#deals,
-.newsletterContainer{
-  width: 1250px;
+#deals{
+  max-width: 1250px;
   margin: 0 auto;
 }
 .title {
@@ -309,17 +308,42 @@ nav {
   text-decoration: underline;
 }
 
+/* #subscribe {
+  background: url("../assets/pexels-suneo1999-24143-103573.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+
+} */
+
+/* #newsletter{
+  background: url("../assets/pexels-suneo1999-24143-103573.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+    width: 100%;
+    padding: 50px 0;
+} */
 
 #newsletter{
-
-  background: url("../assets/news-letter-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat; 
-  background-position: center;
+  background: url("../assets/news-letter-bg.png") center/cover no-repeat;
+  width: 100%;         
   padding: 100px 0;
 
 
 }
+
+.newsletterContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 
 #newsletter .title {
   text-align: center;
@@ -327,7 +351,7 @@ nav {
   font-size: 40px;
 }
 .form{
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 input[type="email"] {
